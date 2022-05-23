@@ -32,6 +32,13 @@ body {
 body, html {
     scroll-behavior: smooth;
     height: 100%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 1.46;
+    color: #000;
 }
 
 ol, ul {
@@ -56,8 +63,7 @@ table {
     width: 100%;
     /* max-width: 1400px; */
     margin: 0 auto;
-    /* background-color: #000;
-    color: #FFFFFF; */
+    /* background-color: #000; */
 
     /* footer к нізу */
     min-height: 100%;
@@ -69,8 +75,8 @@ table {
     /* width: 100%; */
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0 20px;
-    background-color: green;
+    /* padding: 0 20px; */
+    /* background-color: green; */
 }
 
 .main{
@@ -78,6 +84,234 @@ table {
     flex: 1 1 auto;  
 }
 
-/*    H E A D E R 
-     =============   */
+    /* = = = = = = = = = = = = = = = = =  */
 
+/*   ========= H E A D E R ==========    
+              =============   */
+
+.header {
+    height: 120px;
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;  
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 45px 0; */
+}
+.header__menu {
+   display: flex;
+   align-items: center;
+   height: 120px;
+}
+.logo-title {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 0.9;
+}
+.navigation {
+    display: flex;
+}
+.navigation__block {
+    padding-right: 32px;
+}
+.navigation__link {
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.navigation__link:hover{
+    transition: .2s linear;
+    opacity: 0.6;
+}
+.header__search {
+    padding-left: 32px;
+}
+.header__window-search {
+    display: flex;
+    align-items: center;
+}
+.search-image {
+    width: 22px;
+    height: auto;
+}
+
+/*   ========= B U R G E R   M E N U ==========    
+             =========================   */
+
+.burger__navigation{
+    display: none;
+    background: none;
+
+    border: 0;
+    cursor: pointer;
+}
+.burger__item{
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #000;
+
+    font-size: 0;
+    color: transparent;
+    position: relative;
+}
+.burger__item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+
+    position: absolute;
+    left: 0;
+    top: -10px;
+    z-index: 1;
+}  
+.burger__item::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: 1;
+}
+
+/*   ========= M A S T H E A D ==========    
+             ===================   */
+
+.masthead {
+    width: 100%;
+    height: 1106px;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)), url(./assets/img/Header/BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.masthead__inner {
+    margin: 0 auto;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+}
+.masthead__title {
+    padding-top: 305px;    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 0.6;
+    color: #fff;
+}
+.masthead__subtitle {
+    padding-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;   
+    line-height: 1.0;
+    color: #fff;
+}
+.masthead__button {
+    padding-top: 128px;
+    text-align: center;
+}
+.button{
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 1.1;
+    /* color: #fff; */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.masthead__find {
+    margin-right: 25px;
+    padding: 24px 36px;
+    border: 3px solid #fff;
+}
+.button:hover{
+    background-color: #00897b;
+    border: 3px solid #00897b;
+    transition: .2s linear;
+}
+.find__title {
+    color: #fff;
+}
+.arrow{
+    /* display: block; */
+    margin-top: 55px;
+}
+.arrow-icon {
+    margin-top: 115px;
+    text-align: center;
+    height: 23px;
+    fill: #fff;
+}
+.arrow-icon:hover{
+    fill: #FFF;
+
+    width: auto;
+    height: 25px;
+ 
+    margin-top: 125px;
+    transition: .8s linear;
+}
+
+/*   ========= H O M E ========== 
+             ===========   */
+
+
+
+/*   ========= A B O U T =========
+             =============   */ 
+
+
+
+/*   ========= S E R V I C I N G ==========     
+             =====================   */
+
+
+
+/*   ========= P O R T F O L I O ==========    
+             =====================   */
+
+
+
+/*   ========= B L O G ==========    
+             ===========   */
+
+
+
+/*   ========= C O N T A C T ==========    
+             =================   */
+   
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+    background-color: red;
+}
+.footer {
+    background-color: blue;
+}

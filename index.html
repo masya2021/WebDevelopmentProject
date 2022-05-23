@@ -6,40 +6,206 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+
+    <!-- /fonts -->
+
     <script src="./script.js" defer></script>
     <title>WebDevelopmentProjects</title>
 </head>
 
 <body>
     <div class="wrapper">
+
+        <!-- H E A D E R -->
+
         <header class="header">
             <div class="container">
                 <div class="header__inner">
+
                     <div class="header__logo">
-                        <img src="./assets/img/ActiveBoxLogo.png" alt="logo">
+                        <span class="logo-title">Your Logo</span>
                     </div>
-                    <nav class="navigation">
-                        <div class="navigation__block">
-                            <a href="#features" data-scroll="#features"
-                                class="navigation__link">Features</a></div>
-                        <div class="navigation__block"><a href="#works" data-scroll="#works"
-                                class="navigation__link">Works</a></div>
-                        <div class="navigation__block"><a href="#team" data-scroll="#team" class="navigation__link">Our
-                                Team</a></div>
-                        <div class="navigation__block"><a href="#clients" data-scroll="#clients"
-                                class="navigation__link">Testimonials</a></div>
-                        <div class="navigation__block"><a href="#download" data-scroll="#download"
-                                class="navigation__link">Download</a></div>
-                    </nav>
-    
-                    <button class="burger__navigation" id="burger__navigation" type="button">
-                        <span class="burger__item" id="burger__item">Menu</span>
-                    </button>
+
+                    <div class="header__menu">
+                        <nav class="navigation">
+                            <div class="navigation__block"><a href="#home" data-scroll="#home"
+                                    class="navigation__link">Home</a></div>
+                            <div class="navigation__block"><a href="#about" data-scroll="#about"
+                                    class="navigation__link">About</a></div>
+                            <div class="navigation__block"><a href="#Servicing" data-scroll="#Servicing"
+                                    class="navigation__link">Servicing</a></div>
+                            <div class="navigation__block"><a href="#portfolio" data-scroll="#portfolio"
+                                    class="navigation__link">Portfolio</a></div>
+                            <div class="navigation__block"><a href="#blog" data-scroll="#blog"
+                                    class="navigation__link">Blog</a></div>
+                            <div class="navigation__block"><a href="#contact" data-scroll="#contact"
+                                    class="navigation__link">Contact us</a></div>
+                        </nav>
+
+                        <button class="burger__navigation" id="burger__navigation" type="button">
+                            <span class="burger__item" id="burger__item">Menu</span>
+                        </button>
+
+                        <div class="header__search">
+                            <a class="header__window-search" href="#" target="_blank">
+                                <svg class="search-image">
+                                    <use xlink:href="#search"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                </div> <!-- ./header__inner -->
+            </div> <!-- ./container -->
+        </header> <!-- ./header -->
+
+        <!-- /.H E A D E R -->
+        <!-- masthead -->
+        <div class="masthead">
+
+            <div class="container">
+                <div class="masthead__inner">
+
+                    <h1 class="masthead__title">Web development project</h1>
+                    <p class="masthead__subtitle">Very suitable to support all web development projects</p>
+
+                    <div class="masthead__button">
+                        <a href="#" class="masthead__find button">
+                            <span class="find__title">Our Services</span>
+                        </a>
+                        <a href="#" class="masthead__find button">
+                            <span class="find__title">Hire is now</span>
+                        </a>
+                    </div>
+
+                    <div class="arrow">
+                        <a class="masthead__arrow" href="#" target="_blank">
+                            <svg class="arrow-icon">
+                                <use xlink:href="#arrow"></use>
+                            </svg>
+                        </a>
+                    </div>
+
+
+                </div> <!-- /.masthead__inner -->
+            </div> <!-- /.container -->
+
+        </div> <!-- ./masthead -->
+
+        <!-- main -->
+        <main class="main">
+
+                <!-- home -->
+            <div class="home" id="home">
+                <div class="container">
+
+                    <div class="home__inner">
+                        <div class="inner__title">
+                            <h2 class="title-name"></h2>
+                            <p class="subtitle-describer"></p>
+                        </div>
+                        .
+                    </div>
+
                 </div>
             </div>
-        </header>
-        <main class="main"></main>
-        <footer class="footer"></footer>
+                <!-- ./home -->
+                
+                <!-- about -->
+            <div class="about" id="about">
+                <div class="container">
+
+                    <div class="about__inner">
+                        <div class="inner__title">
+                            <h2 class="title-name"></h2>
+                            <p class="subtitle-describer"></p>
+                        </div>
+                        .
+                    </div>
+
+                </div>
+            </div>
+                <!-- ./about -->
+
+                <!-- servicing -->
+            <div class="servicing" id="servicing">
+                <div class="container">
+
+                    <div class="servicing__inner">
+                        <div class="inner__title">
+                            <h2 class="title-name"></h2>
+                            <p class="subtitle-describer"></p>
+                        </div>
+                        .
+                    </div>
+
+                </div>
+            </div>
+                <!-- ./servicing -->
+
+                <!-- portfolio -->
+            <div class="portfolio" id="portfolio">
+                <div class="container">
+
+                    <div class="portfolio__inner">
+                        <div class="inner__title">
+                            <h2 class="title-name"></h2>
+                            <p class="subtitle-describer"></p>
+                        </div>
+                        .
+                    </div>
+
+                </div>
+            </div>
+                <!-- ./portfolio -->
+
+                <!-- blog -->
+            <div class="blog" id="blog">
+                <div class="container">
+
+                    <div class="blog__inner">
+                        <div class="inner__title">
+                            <h2 class="title-name"></h2>
+                            <p class="subtitle-describer"></p>
+                        </div>
+                        .
+                    </div>
+
+                </div>
+            </div>
+                <!-- ./blog -->
+
+                <!-- contact -->
+            <div class="contact" id="contact">
+                <div class="container">
+
+                    <div class="contact__inner">
+                        <div class="inner__title">
+                            <h2 class="title-name"></h2>
+                            <p class="subtitle-describer"></p>
+                        </div>
+                        .
+                    </div>
+                    
+                </div>
+            </div>
+                <!-- ./contact -->
+
+        </main>  <!-- ./main -->
+
+            <!-- footer -->
+        <footer class="footer">
+            
+        </footer>
+            <!-- ./footer -->
     </div>
 </body>
 
@@ -50,18 +216,19 @@
 <!-- Sprite -->
 <svg style="display:none;">
 
-    <symbol id="facebook" viewBox="0 0 8 18">
+    <symbol id="search" viewBox="0 0 32 32">
         <g>
-            <path class="cls-1"
-                d="M907,3883.83h-2.724v-1.87a0.75,0.75,0,0,1,.757-0.87h1.923v-3.08l-2.648-.01c-2.939,0-3.608,2.3-3.608,3.77v2.06H899v3.18h1.7V3896h3.576v-8.99h2.412Z"
-                transform="translate(-899 -3878)" />
+            <path
+                d="M27.414,24.586l-5.077-5.077C23.386,17.928,24,16.035,24,14c0-5.514-4.486-10-10-10S4,8.486,4,14  s4.486,10,10,10c2.035,0,3.928-0.614,5.509-1.663l5.077,5.077c0.78,0.781,2.048,0.781,2.828,0  C28.195,26.633,28.195,25.367,27.414,24.586z M7,14c0-3.86,3.14-7,7-7s7,3.14,7,7s-3.14,7-7,7S7,17.86,7,14z"
+                id="XMLID_223_" />
         </g>
     </symbol>
 
-    <symbol id="twitter" viewBox="0 0 512 512">
+    <symbol id="arrow" viewBox="0 0 307.053 307.053">
         <g>
-            <path
-                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+            <path d="M302.445,80.796l-11.101-11.103c-6.123-6.131-16.074-6.131-22.209,0L153.67,183.707L37.907,67.959
+				c-6.134-6.13-16.08-6.13-22.209,0L4.597,79.06c-6.129,6.133-6.129,16.067,0,22.201l137.83,137.829
+				c6.129,6.136,16.067,6.136,22.203,0l137.815-136.096C308.589,96.864,308.589,86.926,302.445,80.796z" />
         </g>
     </symbol>
 
@@ -82,4 +249,5 @@
     </symbol>
 
 </svg> <!-- /.Sprite -->
+
 </html>
