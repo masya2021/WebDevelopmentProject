@@ -272,12 +272,145 @@ table {
 /*   ========= H O M E ========== 
              ===========   */
 
-
+.home {
+    background-color: #fff;
+}
+.inner__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-name{
+    padding-top: 125px;
+    padding-bottom: 38px;
+}
+.title-name { 
+    padding-bottom: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: 0.8;
+}
+.subtitle-describer {
+    max-width: 52%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 1.5;
+}
+.home__content {
+    margin-top: 128px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+.home__content-card {
+    width: 33.3333%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-title {
+    margin: 40px 0 30px;
+}
+.card-describer {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
 
 /*   ========= A B O U T =========
              =============   */ 
+.about {
+    background-color: #e4fdf9;
+}
+.about-name {
+    padding-top: 175px;  
+}
+/* .subtitle-describer{
+    
+} */
+.about__content {
+    margin-top: 120px;
+    padding-bottom: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+.about__content-card {
+    max-width: 31.6%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 34px;
+}
+.about__card-item {
+    background-color: #FFF;
+    padding-bottom: 69px;
+}
+.about__card-item:hover{
+    background-color: #00897b;
+    color: #fff;
 
+    box-shadow: 5px 3px 5px 3px rgba(182, 181, 181, 0.836);
+}
+.about__image {
+    margin-top: 58px;
+    padding-left: 25px;
+}
+.about__card-title {
+    margin: 40px 0 30px;
 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;   
+    line-height: 1.1;
+}
+.about__card-describer {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;   
+    line-height: 1.65;
+}
+.about__read-more {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;   
+    line-height: 1.1;
+    text-decoration: none;
+    color: #212121;
+    margin-bottom: 25px;
+}
+.about__read-more:hover{
+    color: #fff;
+}
+.read-more--title {
+    padding: 12px 15px;
+    border: 2px solid #000;
+}
+.read-more--title:hover{
+    border: 2px solid #fff;
+    cursor: pointer;
+}
 
 /*   ========= S E R V I C I N G ==========     
              =====================   */
@@ -310,7 +443,7 @@ table {
 
 
 .main {
-    background-color: red;
+    background-color: rgb(170, 228, 223);
 }
 .footer {
     background-color: blue;
